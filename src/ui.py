@@ -81,7 +81,7 @@ class HtmlView:
 
 view = HtmlView.default()
 
-@when("change", "#input")
+@when("keyup", "#input")
 def click_handler(event):
     view.handle_click(event)
 
