@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2024.9.2/core.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      type="module"
+      src="https://pyscript.net/releases/2024.9.2/core.js"
+    ></script>
+  </head>
+
+  <body>
+    <script type="py" src="ui.py" config="pyscript.toml"></script>
+    <h2>CS 150 24.1 Lab 5 Output Validator <span id="version"></span><span id="loading">(Loading...)</span></h2>
+    <div class="content">
+      <div class="content-input">
+        <textarea id="input" rows="30" placeholder="Paste main.py output here"></textarea>
+      </div>
+      <div class="content-lines">
+        <div id="output">
+        </div>
+      </div>
+      <div class="content-verdict">
+        <div id="verdict">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

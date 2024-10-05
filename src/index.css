@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-input {
+  width: 32%;
+}
+
+.content-lines {
+  width: 32%;
+}
+
+.content-verdict {
+  width: 32%;
+}
+
+#input {
+  width: 100%;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.ignore {
+  color: lightgray;
+}
